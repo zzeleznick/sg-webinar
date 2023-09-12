@@ -1,0 +1,9 @@
+{
+  "name": "zz-webinar",
+  "version": "0.0.1",
+  "workspaces": ["lessons/*"],
+  "scripts": {
+    "1": "bun run --cwd lessons/01-xss dev",
+    "2": "bun run --cwd lessons/02-ssrf dev"
+  }
+}
