@@ -4,6 +4,8 @@
   "workspaces": ["lessons/*"],
   "scripts": {
     "1": "bun run --cwd lessons/01-xss dev",
-    "2": "bun run --cwd lessons/02-ssrf dev"
+    "2a": "bun run --cwd lessons/02-ssrf nc",
+    "2b": "bun run --cwd lessons/02-ssrf dev",
+    "2c": "bun run --cwd lessons/02-ssrf exploit"
   }
 }

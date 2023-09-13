@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Sample Vulnerable App',
-  description: 'Webinar demo app for XSS and CSRF',
+  description: 'XSS',
 }
 
 export default function RootLayout({

