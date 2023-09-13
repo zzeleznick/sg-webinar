@@ -3,6 +3,10 @@ import AvatarCard from "../components/AvatarCard";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
+      <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Luckiest+Guy"/>
+      <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Paytone+One"/>
       <section className="w-full items-center justify-between">
         <h1 className="text-4xl">
           XSS Demo
