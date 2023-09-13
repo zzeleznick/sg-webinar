@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Sample Vulnerable App',
-  description: 'XSS',
+  title: 'XSS Demo',
+  description: 'A next.js app vulnerable to xss attack',
 }
 
 export default function RootLayout({
