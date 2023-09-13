@@ -7,8 +7,5 @@
     "2a": "bun run --cwd lessons/02-ssrf nc",
     "2b": "bun run --cwd lessons/02-ssrf dev",
     "2c": "bun run --cwd lessons/02-ssrf exploit"
-  },
-  "dependencies": {
-    "react-icons": "^4.11.0"
   }
 }
